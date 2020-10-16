@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.descr {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #fff;
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+.white_space {
+    width: 100%;
+    height: 20px;
+    background-color: #fff;
+}
+
+/* Section 1*/
+
+.first_yellow_section {
+    background-image: url(../pic/first_bg.png);
+    background-position: right 60px;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.first_yellow_section-inner {
+    padding: 30px 0 40px 40px;
+}
+
+.first_yellow_section,
+.second_yellow_section
+{
+    min-height: 470px;
+    background-color: #fed443;
+    padding-bottom: 30px;
+}
+
+
+/* Section 2*/
+
+
+.second_yellow_section {
+    position: relative;
+    min-height: 320px;
+    padding-left: 20px;
+}
+
+.white_text {
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    top: -40px;
+    font-size: 160px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.second_yellow_section-content{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 100px;
+    left: 100px;
+    z-index: 100;
+}
+
+.discount_block,
+.cert_block {
+    margin-left: 75px;
+}
+
+
+/* Section 3*/
+
+.section3 {
+    padding: 50px 20px;
+    background-image: url(../pic/second_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section3-inner {
+    text-align: center;
+}
+
+.section3-content {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.section3-inner > h2 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+}
+
+.section3-content > p {
+    color: #666666;
+}
+
+.green_btn {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 25px;
+    background-color: #91c808;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.promocode {
+    margin-left: 5em;
+    padding: 20px 60px;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    border: 1px solid #d9d8db;
+}
+
+
+/* Section 4*/
+
+.section4,
+.section5 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.section4-content__discount {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 160px;
+    font-weight: 700;
+    color: #ffdb4d;
+}
+
+.section4-content__discount > sup {
+    font-size: 100px;
+}
+
+.section4-content__cashback {
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #303246;
+}
+
+.section4-content > button {
+    width: 50%;
+}
+
+
+
+/* Section 5*/
+
+.section5-content__coupons {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coupon_block {
+    padding: 5px 35px;
+    background-color: #2a94e5;
+    border-radius: 20px;
+}
+
+.coupon_block > p {
+    width: 100%;
+    font-weight: 300;
+    color: #fff;
+}
+
+.coupon_block > p > span {
+    font-weight: 700; 
+}
+
+
+/* Section 6*/
+
+.section6 {
+    padding-top: 50px;
+    background-image: url(../pic/footer_bg.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.section6-content > h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 100px;
+    font-weight: 600;
+    color: #ffdb4d;
+    text-transform: uppercase;
+}
+
+.section6-content > h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #2a94e5;
+    text-transform: uppercase;
+    padding-bottom: 25px;
+}
+
+
+.section6-content > h4 {
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+.section6-content > h4 > span {
+    font-size: 15px;
+}
