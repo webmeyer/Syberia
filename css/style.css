@@ -244,9 +244,18 @@ h4 {
     padding-bottom: 25px;
 }
 
+.show {
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
 
 .section6-content > h4 {
-    padding-bottom: 60px;
     cursor: pointer;
 }
 .section6-content > h4 > span {
